@@ -1,0 +1,28 @@
+{
+  "name": "light-learn",
+  "version": "1.0.0",
+  "description": "light weight machine learning library",
+  "main": "./src/index.ts",
+  "scripts": {
+    "start": "nodemon ./dist/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomOffermann/light-learn.git"
+  },
+  "keywords": [
+    "machine",
+    "learning"
+  ],
+  "author": "Tom Offermann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TomOffermann/light-learn/issues"
+  },
+  "homepage": "https://github.com/TomOffermann/light-learn#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "tsc": "^2.0.4"
+  }
+}
